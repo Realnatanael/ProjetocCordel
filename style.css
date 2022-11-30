@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+:root{
+    --cursiva1:'Dancing Script', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding-top: 10vh;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+header p{
+    padding-bottom: 10vh;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--cursiva1);
+    font-size: 2em;
+}
+section > p{
+    padding: 2em;
+    
+}
+section.imagem > p{
+    display: block;
+   background-color: rgba(0, 0, 0, 0.856);
+   max-width: 350px;
+   color: white;
+   border-radius: 0px 18px 18px 0px;
+}
+section#img01, section#img02{
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.671);
+}
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    padding: 2.5vh;
+}
+footer > p{
+    color: white;
+    text-align: center;
+}
